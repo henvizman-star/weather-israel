@@ -1,0 +1,33 @@
+﻿.main-menu {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem;
+    border-bottom: 1px solid #dbeafe;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(6px);
+}
+
+.main-menu a {
+    padding: 0.65rem 1.15rem;
+    border-radius: 999px;
+    color: #334155;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 160ms ease;
+}
+
+.main-menu a:hover {
+    color: #0369a1;
+    background: #f0f9ff;
+}
+
+.main-menu a.active {
+    color: white;
+    background: #0284c7;
+    box-shadow: 0 6px 18px rgba(2, 132, 199, 0.25);
+}
+

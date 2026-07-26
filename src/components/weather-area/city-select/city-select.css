@@ -1,0 +1,40 @@
+﻿.city-select-wrapper {
+    display: grid;
+    gap: 0.55rem;
+    max-width: 560px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.city-select-wrapper label {
+    color: #0f172a;
+    font-weight: 800;
+}
+
+.city-select-wrapper select {
+    width: 100%;
+    padding: 0.95rem 1rem;
+    border: 1px solid #bae6fd;
+    border-radius: 14px;
+    color: #0f172a;
+    background: white;
+    font: inherit;
+    outline: none;
+    box-shadow: 0 8px 24px rgba(14, 116, 144, 0.08);
+}
+
+.city-select-wrapper select:focus {
+    border-color: #0284c7;
+    box-shadow: 0 0 0 4px rgba(2, 132, 199, 0.13);
+}
+
+.city-select-wrapper select:disabled {
+    cursor: wait;
+    opacity: 0.65;
+}
+
+.city-select-wrapper p {
+    margin: 0;
+    color: #64748b;
+    font-size: 0.85rem;
+}

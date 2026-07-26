@@ -1,0 +1,44 @@
+﻿.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    max-width: 900px;
+    margin: 2rem auto 0;
+}
+
+.about-grid article {
+    padding: 2rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 22px;
+    background: white;
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+}
+
+.about-icon {
+    display: grid;
+    width: 3rem;
+    height: 3rem;
+    place-items: center;
+    border-radius: 14px;
+    color: #0369a1;
+    background: #e0f2fe;
+    font-size: 1.5rem;
+}
+
+.about-grid h3 {
+    margin: 1rem 0 0.5rem;
+    color: #0f172a;
+    font-size: 1.35rem;
+}
+
+.about-grid p {
+    margin: 0;
+    color: #64748b;
+    line-height: 1.8;
+}
+
+@media (max-width: 700px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+}

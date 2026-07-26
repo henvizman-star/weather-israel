@@ -1,0 +1,30 @@
+﻿.not-found {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.not-found strong {
+    color: #7dd3fc;
+    font-size: clamp(5rem, 18vw, 10rem);
+    line-height: 1;
+}
+
+.not-found h2 {
+    margin: 1rem 0 0.5rem;
+    color: #0f172a;
+}
+
+.not-found p {
+    margin: 0 0 1.5rem;
+    color: #64748b;
+}
+
+.not-found a {
+    display: inline-block;
+    padding: 0.75rem 1.1rem;
+    border-radius: 12px;
+    color: white;
+    background: #0284c7;
+    text-decoration: none;
+    font-weight: 700;
+}
